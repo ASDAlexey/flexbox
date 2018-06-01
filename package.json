@@ -1,0 +1,16 @@
+{
+  "name": "flexbox",
+  "version": "1.0.0",
+  "description": "npm install -g scss-compile",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss styles/styles.scss styles/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.5"
+  }
+}

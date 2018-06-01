@@ -1,0 +1,30 @@
+$white: #fff;
+$black: #000;
+$blue: #00a9d9;
+
+body {
+  background-color: $white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main-nav {
+  ul {
+    list-style: none;
+    display: flex;
+  }
+
+  li {
+    width: 100px;
+
+    a {
+      text-decoration: none;
+      font-size: 21px;
+      font-weight: 600;
+      color: $blue;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
