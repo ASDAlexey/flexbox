@@ -1,16 +1,6 @@
 html,
 body {
-  height: 100%;
   margin: 0; }
-
-body {
-  background-color: #fff;
-  font-family: 'Open Sans', sans-serif;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start; }
-  body > * {
-    flex: 1; }
 
 .main-nav {
   order: -1; }
@@ -39,3 +29,25 @@ body {
 .main-footer {
   padding: 10px;
   background-color: #abc999; }
+
+body {
+  margin: 0;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  display: flex; }
+
+.title-1,
+.title-2,
+.title-3 {
+  margin: 0; }
+
+.title-1 {
+  background-color: #dd5f40;
+  width: 200px;
+  flex-basis: 150px; }
+
+.title-2 {
+  background-color: #3d483a; }
+
+.title-3 {
+  background-color: #468e5d; }
