@@ -43,11 +43,14 @@ body {
 
 .title-1 {
   background-color: #dd5f40;
-  width: 200px;
-  flex-basis: 150px; }
+  width: 200px; }
 
 .title-2 {
   background-color: #3d483a; }
 
 .title-3 {
   background-color: #468e5d; }
+
+h1 {
+  flex-basis: 200px;
+  flex-shrink: 0; }

@@ -81,13 +81,23 @@ body {
 .title-1 {
   background-color: #dd5f40;
   width: 200px;
-  flex-basis: 150px;
+  //flex-basis: 120px;
+  //flex-grow: 1;
 }
 
 .title-2 {
   background-color: #3d483a;
+  //flex-basis: 40px;
+  //flex-grow: 2;
 }
 
 .title-3 {
   background-color: #468e5d;
+  //flex-basis: 100px;
+  //flex-grow: 3;
+}
+
+h1 {
+  flex-basis: 200px;
+  flex-shrink: 0;
 }
